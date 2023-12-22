@@ -18,8 +18,8 @@ This guide will assist you in setting up mods for Lethal Company. Please follow 
 3. **Paste Files into Lethal Company Directory:**
    - Paste the copied files into the Lethal Company directory (`C:\Program Files (x86)\Steam\steamapps\common\Lethal Company`).
 
-4. **Install Mods:**
-   - Use the following links to download and install the desired mods:
+4. **Mods List**
+   - Use the following links for more info:
      - [More Emotes](https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/)
      - [More Suits](https://thunderstore.io/c/lethal-company/p/x753/More_Suits/)
      - [LateCompany](https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/)
