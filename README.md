@@ -1,8 +1,11 @@
 # Lethal Company Mod Setup Guide
 
 This guide will assist you in setting up mods for Lethal Company. Please follow the steps below for a smooth installation process.
+## Easy installation (Do it for me)
+ - install the [Lethal Company mod package (1.zip)](https://raw.githubusercontent.com/abdulr7mann/LethalCompany/main/setup.bat).
 
-## Installation Steps
+
+## Mannual Installation Steps
 
 1. **Navigate to Lethal Company Directory:**
    - Open File Explorer and go to `C:\Program Files (x86)\Steam\steamapps\common\Lethal Company`.
