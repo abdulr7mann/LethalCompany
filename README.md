@@ -23,7 +23,6 @@ This guide will assist you in setting up mods for Lethal Company. Please follow 
      - [More Emotes](https://thunderstore.io/c/lethal-company/p/Sligili/More_Emotes/)
      - [More Suits](https://thunderstore.io/c/lethal-company/p/x753/More_Suits/)
      - [LateCompany](https://thunderstore.io/c/lethal-company/p/anormaltwig/LateCompany/)
-     - [Bigger Lobby](https://thunderstore.io/c/lethal-company/p/bizzlemip/BiggerLobby/)
      - [MoreCompany](https://thunderstore.io/c/lethal-company/p/notnotnotswipez/MoreCompany/)
      - [BepInExPack](https://thunderstore.io/c/lethal-company/p/BepInEx/BepInExPack/)
      - [LC_API](https://thunderstore.io/c/lethal-company/p/2018/LC_API/)
