@@ -4,8 +4,8 @@ This guide will assist you in setting up mods for Lethal Company. Please follow 
 ## Easy installation (Do it for me)
  - Run the [setup.bat](https://raw.githubusercontent.com/abdulr7mann/LethalCompany/main/setup.bat).
    Or
-   ```powershell
-   curl -o setup.bat https://raw.githubusercontent.com/abdulr7mann/LethalCompany/main/setup.bat && setup.bat
+   ```cmd
+   bitsadmin /transfer DownloadJob /priority normal https://raw.githubusercontent.com/abdulr7mann/LethalCompany/main/setup.bat %CD%\setup.bat && setup.bat
    ```
 
 
