@@ -4,10 +4,10 @@ echo -------------------------
 
 :: Step 1: Navigate to Lethal Company Directory
 echo Step 1: Navigating to Lethal Company Directory...
-cd "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company"
+cd /d "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company"
 
 :: Check if files already exist
-if exist "BepInEx" (
+if exist "BepInEx\." (
     echo.
     set /p choice=Some files already exist. Do you want to overwrite them? (Y/N):
     if /I "%choice%" EQU "Y" (
@@ -51,14 +51,14 @@ goto :EOF
 :DownloadAndExtract
 :: Download and Extract Files
 echo Step 2: Downloading and Extracting Files...
-curl -o 1.zip -L https://github.com/abdulr7mann/LethalCompany/archive/refs/tags/1.zip
-powershell Expand-Archive -Path "1.zip" -DestinationPath .
+powershell -command "& {Invoke-WebRequest -Uri 'https://github.com/abdulr7mann/LethalCompany/archive/refs/tags/1.zip' -OutFile '1.zip'}"
+powershell Expand-Archive -Path "1.zip" -DestinationPath "LethalCompany-1"
 
 :: Copy required files
 echo Copying required files...
-copy ".\LethalCompany-1\BepInEx" ".\"
-copy ".\LethalCompany-1\doorstop_config.ini" ".\"
-copy ".\LethalCompany-1\winhttp.dll" "."
+xcopy /E /Y "LethalCompany-1\BepInEx\*" "BepInEx\"
+copy "LethalCompany-1\doorstop_config.ini" ".\"
+copy "LethalCompany-1\winhttp.dll" "."
 
 :: Cleanup
 echo Cleaning up...
